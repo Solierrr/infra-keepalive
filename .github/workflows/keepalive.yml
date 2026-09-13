@@ -17,7 +17,7 @@ jobs:
           method: "universal"
           client-id: ${{ secrets.INFISICAL_CLIENT_ID }}
           client-secret: ${{ secrets.INFISICAL_CLIENT_SECRET }}
-          domain: ${{ vars.INFISICAL_DOMAIN || 'https://app.infisical.com' }}
+          domain: "https://app.infisical.com"
           project-slug: ${{ vars.INFISICAL_PROJECT_SLUG }}
           env-slug: "prod"
           secret-path: "/service-urls"
