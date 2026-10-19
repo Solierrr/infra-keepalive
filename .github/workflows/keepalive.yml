@@ -12,7 +12,7 @@ jobs:
       - uses: actions/checkout@v4
 
       - name: load service urls from infisical
-        uses: Infisical/secrets-action@v1.0.9
+        uses: Infisical/secrets-action@v1.0.18
         with:
           method: "universal"
           client-id: ${{ secrets.INFISICAL_CLIENT_ID }}
