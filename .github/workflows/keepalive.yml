@@ -18,7 +18,7 @@ jobs:
           client-id: ${{ secrets.INFISICAL_CLIENT_ID }}
           client-secret: ${{ secrets.INFISICAL_CLIENT_SECRET }}
           domain: "https://app.infisical.com"
-          project-slug: ${{ vars.INFISICAL_PROJECT_SLUG }}
+          project-slug: ${{ secrets.INFISICAL_PROJECT_SLUG }}
           env-slug: "qa"
           secret-path: "/service-urls"
           export-type: "env"
